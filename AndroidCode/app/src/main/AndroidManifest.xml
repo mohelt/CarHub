@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationCarHub">
         <activity
+            android:name=".Segg"
+            android:label="Koenigsegg"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+        <activity
+            android:name=".Veyron"
+            android:label="Veyron"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
             android:name=".Bugatti"
             android:label="Bugatti"
-            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
         <activity
             android:name=".ScrollingActivity"
             android:label="CarHub"

@@ -91,4 +91,7 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_bugatti">ScrollingActivity</string>
+    <string name="title_activity_veyron">ScrollingActivity</string>
+    <string name="_1_200_ps_a_maximum_torque_of_1_500_nm_acceleration_from_0_to_100_km_h_in_2_5_seconds_and_a_top_speed_of_415_km_h_2010_the_veyron_16_4_super_sport_made_experts_and_car_fans_all_around_the_world_marvel_at_this_performance_data_and_shone_bright_as_the_new_star_in_the_super_sports_car_sky_in_the_year_of_its_market_launch_the_veyron_16_4_already_set_up_a_speed_record_for_street_cars_adhering_to_the_the_guiness_world_record_restrictions_an_unprecedented_431_072_km_h_was_reached_and_the_veyron_was_knighted_as_the_fastest_super_sportscar_of_its_time_the_veyron_16_4_super_sport_is_completely_sold_out">1,200 PS, a maximum torque of 1,500 Nm, acceleration from 0 to 100 km/h in 2.5 seconds and a top speed of 415 km/h – 2010 the Veyron 16.4 Super Sport made experts and car fans all around the world marvel at this performance data and shone bright as the new star in the super sports car sky. In the year of its market launch the Veyron 16.4 already set up a speed record for street cars. Adhering to the the Guiness World Record restrictions an unprecedented 431.072 km/h was reached and the Veyron was knighted as the fastest super sportscar of its time. The Veyron 16.4 Super Sport is completely sold out.</string>
+    <string name="title_activity_segg">ScrollingActivity</string>
 </resources>

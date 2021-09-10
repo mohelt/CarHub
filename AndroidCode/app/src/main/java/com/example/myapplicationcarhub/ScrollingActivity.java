@@ -45,6 +45,14 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, Bugatti.class));
             }
         });
+        Button btn2 = (Button)findViewById(R.id.id2);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, Segg.class));
+            }
+        });
     }
 
     @Override
