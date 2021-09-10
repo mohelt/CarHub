@@ -40,7 +40,7 @@ public class Ferrari extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // startActivity(new Intent(Bugatti.this, Veyron.class));
+                startActivity(new Intent(Ferrari.this, eight12.class));
             }
         });
     }

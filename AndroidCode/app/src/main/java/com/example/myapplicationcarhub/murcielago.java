@@ -12,14 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
-import android.widget.Button;
 
-public class Porsche extends AppCompatActivity {
+public class murcielago extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_porsche);
+        setContentView(R.layout.activity_murcielago);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         CollapsingToolbarLayout toolBarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
@@ -33,14 +32,6 @@ public class Porsche extends AppCompatActivity {
                 Uri data = Uri.parse("mailto:moheltbusiness@gmail.com?subject=Query:");
                 intent.setData(data);
                 startActivity(intent);
-            }
-        });
-        Button btn = (Button)findViewById(R.id.id1);
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Porsche.this, nine11.class));
             }
         });
     }

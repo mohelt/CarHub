@@ -40,7 +40,7 @@ public class McLaren extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-         //       startActivity(new Intent(Bugatti.this, Veyron.class));
+                startActivity(new Intent(McLaren.this, five40.class));
             }
         });
     }

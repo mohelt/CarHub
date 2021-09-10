@@ -100,4 +100,9 @@
     <string name="title_activity_lamborghini">ScrollingActivity</string>
     <string name="title_activity_ferrari">ScrollingActivity</string>
     <string name="title_activity_porsche">ScrollingActivity</string>
+    <string name="title_activity_five40">ScrollingActivity</string>
+    <string name="title_activity_vulcan">ScrollingActivity</string>
+    <string name="title_activity_murcielago">ScrollingActivity</string>
+    <string name="title_activity_eight12">ScrollingActivity</string>
+    <string name="title_activity_nine11">ScrollingActivity</string>
 </resources>

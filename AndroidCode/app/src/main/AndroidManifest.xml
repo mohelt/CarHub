@@ -10,9 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationCarHub">
         <activity
+            android:name=".nine11"
+            android:label="911 Carrera"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+        <activity
+            android:name=".eight12"
+            android:label="812 Superfast"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
+            android:name=".murcielago"
+            android:label="Murcielago"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
+            android:name=".vulcan"
+            android:label="Vulcan"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
+            android:name=".five40"
+            android:label="540C Coupe"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
             android:name=".Porsche"
             android:label="Porsche"
-            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
         <activity
             android:name=".Ferrari"
             android:label="Ferrari"
