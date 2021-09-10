@@ -10,9 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationCarHub">
         <activity
+            android:name=".Porsche"
+            android:label="Porsche"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+        <activity
+            android:name=".Ferrari"
+            android:label="Ferrari"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
+            android:name=".Lamborghini"
+            android:label="Lamborghini"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
+            android:name=".AstonMartin"
+            android:label="Aston Martin"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
+            android:name=".McLaren"
+            android:label="McLaren"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
+        <activity
             android:name=".Agera"
             android:label="Agera"
-            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
         <activity
             android:name=".Segg"
             android:label="Koenigsegg"

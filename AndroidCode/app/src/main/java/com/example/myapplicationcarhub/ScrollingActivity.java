@@ -53,6 +53,46 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, Segg.class));
             }
         });
+        Button btn3 = (Button)findViewById(R.id.id3);
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, McLaren.class));
+            }
+        });
+        Button btn4 = (Button)findViewById(R.id.id4);
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, AstonMartin.class));
+            }
+        });
+        Button btn5 = (Button)findViewById(R.id.id5);
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, Lamborghini.class));
+            }
+        });
+        Button btn6 = (Button)findViewById(R.id.id6);
+
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, Ferrari.class));
+            }
+        });
+        Button btn7 = (Button)findViewById(R.id.id7);
+
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, Porsche.class));
+            }
+        });
     }
 
     @Override
