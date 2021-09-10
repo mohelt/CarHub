@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Agera"
+    tools:showIn="@layout/activity_agera">
+    <!-- Linear LAyout -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:background = "#2BFF06"
+            app:srcCompat="@drawable/agera"
+            android:layout_width = "match_parent"
+            android:layout_height = "300dp"/>
+        <TextView
+            android:textSize = "16dp"
+            android:padding = "8dp"
+            android:layout_margin = "20dp"
+            android:fontFamily = "monospace"
+            android:textStyle = "bold"
+            android:text = "When the Koenigsegg Agera was introduced in 2010, the Swedish car company had already made a name for itself with its limited volume CC series introduced a decade earlier. While Koenigsegg may not have the illustrious history of many of its hypercar rivals, it definitely has a spec-sheet to make up for it.
+
+Power comes from a 5.0-litre twin turbo V8 designed in-house (rival Pagani uses Mercedes-AMG engines), which makes 1,380bhp and a maximum torque figure of 1280Nm. Weighing around 1,400kgs, achieved in part due to use of carbon fibre, the Agera RS has claimed the world record for the fastest 0-249-0mph time, taking a ridiculous 36.44 seconds – over five seconds faster than the previous record set by the Bugatti Chiron.
+The Agera RS also claimed the record for highest top speed towards the end of 2017, reaching the dizzying heights of 277.9mph, 12mph more than the existing record held by the Bugatti Veyrom Super Sport – one imagines the team at Koenigsegg are no longer on Bugatti’s Christmas card list... Interestingly, Koenigsegg offer a 1Megawatt engine option, which is enough to power three Porsche 911 Carrera GTS’ and have seven Watts spare. It doesn’t matter if you have ever seen one or not, Koenigsegg produce some seriously quick cars.
+"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

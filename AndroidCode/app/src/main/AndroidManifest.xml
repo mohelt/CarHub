@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationCarHub">
         <activity
+            android:name=".Agera"
+            android:label="Agera"
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+        <activity
             android:name=".Segg"
             android:label="Koenigsegg"
-            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar"></activity>
+            android:theme="@style/Theme.MyApplicationCarHub.NoActionBar" />
         <activity
             android:name=".Veyron"
             android:label="Veyron"

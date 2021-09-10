@@ -12,14 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
-import android.widget.Button;
 
-public class Bugatti extends AppCompatActivity {
+public class Agera extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bugatti);
+        setContentView(R.layout.activity_agera);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         CollapsingToolbarLayout toolBarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
@@ -35,14 +34,5 @@ public class Bugatti extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn = (Button)findViewById(R.id.id1);
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Bugatti.this, Veyron.class));
-            }
-        });
-
     }
 }

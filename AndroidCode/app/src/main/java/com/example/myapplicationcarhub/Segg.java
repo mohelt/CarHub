@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.Button;
 
 public class Segg extends AppCompatActivity {
 
@@ -32,6 +33,14 @@ public class Segg extends AppCompatActivity {
                 Uri data = Uri.parse("mailto:moheltbusiness@gmail.com?subject=Query:");
                 intent.setData(data);
                 startActivity(intent);
+            }
+        });
+        Button btn = (Button)findViewById(R.id.id1);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Segg.this, Agera.class));
             }
         });
     }
