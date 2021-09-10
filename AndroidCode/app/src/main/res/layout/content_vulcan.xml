@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".vulcan"
+    tools:showIn="@layout/activity_vulcan">
+    <!-- Linear LAyout -->
 
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:background = "#2BFF06"
+            app:srcCompat="@drawable/vulcan"
+            android:layout_width = "match_parent"
+            android:layout_height = "300dp"/>
+        <TextView
+            android:textSize = "16dp"
+            android:padding = "8dp"
+            android:layout_margin = "20dp"
+            android:fontFamily = "monospace"
+            android:textStyle = "bold"
+            android:text = "
+The Aston Martin Vulcan is a two-door, two-seat, high-performance lightweight track-only car launched in 2015 by British luxury automobile manufacturer Aston Martin at the 2015 Geneva Motor Show.
+The Vulcan was designed by Aston Martin's creative officer Marek Reichman, taking inspiration from the then Aston Martin current models, such as the Vantage, the DB9 and the One-77.[2] Production totalled 24 cars, with each priced at US$2.3 million.[3]
+One was included with the penthouse of Aston Martin Residences tower in Miami.[4]
+The engine, a 7.0-litre naturally-aspirated V12, mounted in an aluminium alloy chassis with a carbon fibre body, has a power output of 831 PS (611 kW; 820 hp) at 7,750 rpm and 575 lb⋅ft (780 N⋅m) of torque at 6,500 rpm.[1] The Vulcan is fitted with a magnesium torque tube which has a carbon fibre propeller shaft, a limited-slip differential and an Xtrac 6-speed sequential transmission. The car has a dry kerb weight of 1,350 kg (2,976 lb).[5] It uses Michelin Pilot Sport Cup 2 tires, which are fitted on 19 inch APP-TECH wheels that feature centerlock design.[1] Stopping power is aided courtesy of carbon-ceramic brakes, which measure 380 mm (15 in) at the front, 360 mm (14 in) at the rear, and are produced by Brembo.[6][7]
+
+Engine power delivery is selectable using a selector knob in the car, with the first option setting the power to 507 PS (373 kW; 500 hp), the second option setting the power to 684 PS (503 kW; 675 hp), and the third and final option allowing the engine to deliver the full 831 PS (611 kW; 820 hp) of power output.[1]
+
+The Vulcan generates GT3-car levels of downforce via its prominent front splitter, rear diffuser and adjustable rear wing. Aston Martin states that the car will produce 324 kg (714 lb) at 100 mph (160 km/h) and 1,362 kg (3,003 lb) at its Vmax speed.[7]
+
+The car has a race-derived pushrod suspension with anti-dive geometry and is complemented by Multimatic’s Dynamic Suspension Spool Valve (DSSV) adjustable dampers and anti-roll bars, front and rear driver-adjustable anti-lock braking, and variable traction control.
+
+Like the Ferrari FXX, 599XX, FXX-K, and the McLaren P1 GTR, the Vulcan must be approved to drive on track day events by the factory. However, unlike those cars, customers can keep the car on their own.
+"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

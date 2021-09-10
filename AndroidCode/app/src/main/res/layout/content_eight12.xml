@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".eight12"
+    tools:showIn="@layout/activity_eight12">
+    <!-- Linear LAyout -->
 
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:background = "#2BFF06"
+            app:srcCompat="@drawable/eight12"
+            android:layout_width = "match_parent"
+            android:layout_height = "300dp"/>
+        <TextView
+            android:textSize = "16dp"
+            android:padding = "8dp"
+            android:layout_margin = "20dp"
+            android:fontFamily = "monospace"
+            android:textStyle = "bold"
+            android:text = "The Ferrari 812 Superfast[6] (Type F152M) is a front mid-engine, rear-wheel-drive grand tourer produced by Italian sports car manufacturer Ferrari that made its debut at the 2017 Geneva Motor Show. The 812 Superfast is the successor to the F12berlinetta.[
+The 812 Superfast has a 6,496 cc (6.5 L) F140 GA V12, an enlarged version of the 6.3-litre engine used in the F12berlinetta. It generates a power output of 800 PS (588 kW; 789 hp) at 8,500 rpm and 718 N⋅m (530 lb⋅ft) of torque at 7,000 rpm.[7][8] According to Ferrari in 2018, the 812 Superfast's engine was, at the time, the most powerful naturally aspirated production car engine ever made. It does not feature turbocharging or hybrid technology.
+The transmission for the 812 Superfast is a 7-speed dual-clutch automatic gearbox manufactured for Ferrari by Getrag, based on the gearbox used in the 458.[
+The 812 Superfast has 20-inch wheels at the front and the rear. The tires are Pirelli P Zero with codes of 275/35 ZR 20 for the front tires and 315/35 ZR 20 for the rear.[4] The brakes are carbon-ceramic Brembo Extreme Design disc brakes, which Ferrari claims have 5.8% improved braking performance from 100 km/h to 0 km/h as compared to the F12berlinetta.[10] The brakes are borrowed from the LaFerrari, with a diameter of 398 mm (15.7 in) at the front and 360 mm (14.2 in) at the rear.
+Ferrari claims that the 812 Superfast has a top speed of 340 km/h (211 mph) with a 0–100 km/h (0–62 mph) acceleration time of 2.9 seconds.[1] The car has a power to weight ratio of 2.18 kg (4.81 lb) per horsepower (PS). The 812 Superfast is the first Ferrari equipped with EPS (Electronic Power Steering). It also shares the rear-wheel-steering system (Virtual Short Wheelbase 2.0) borrowed from the limited edition F12 TDF. The weight distribution of the car is 47% front, 53% rear.
+The car has recorded a laptime of 1:21.50 around the Fiorano racetrack, 0.50 seconds behind the more track-focused F12tdf.
+"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

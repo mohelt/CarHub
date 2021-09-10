@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".nine11"
+    tools:showIn="@layout/activity_nine11">
+    <!-- Linear LAyout -->
 
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:background = "#2BFF06"
+            app:srcCompat="@drawable/nine11"
+            android:layout_width = "match_parent"
+            android:layout_height = "300dp"/>
+        <TextView
+            android:textSize = "16dp"
+            android:padding = "8dp"
+            android:layout_margin = "20dp"
+            android:fontFamily = "monospace"
+            android:textStyle = "bold"
+            android:text = "The Porsche 911 GT3 is a high-performance homologation model of the Porsche 911
+            sports car. It is a line of high-performance models, which began with the 1973 911 Carrera RS.
+            The GT3 has had a successful racing career in the one-make national and regional Porsche Carrera
+            Cup and GT3 Cup Challenge series, as well as the international Porsche Supercup supporting the FIA
+            Formula 1 World Championship.The GT3 nameplate was introduced in 1999 as part of t
+            he first generation of the Porsche 996 model range (commonly known as 996.1[2])
+             as a homologation model for the cars entered in the FIA GT3 cup. As with Porsche's
+              previous 911 RS models, the 996 GT3 was focused on racing, and so was devoid of items
+              that added unnecessary weight to the car. Sound deadening was almost completely removed,
+               as were the rear seats, rear loud speakers, sunroof, and air conditioning,
+             although automatic air conditioning and CD/radio became no-cost optional add-ons."
+             android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

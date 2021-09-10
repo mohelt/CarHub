@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".five40"
+    tools:showIn="@layout/activity_five40">
+    <!-- Linear LAyout -->
 
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:background = "#2BFF06"
+            app:srcCompat="@drawable/five40"
+            android:layout_width = "match_parent"
+            android:layout_height = "300dp"/>
+        <TextView
+            android:textSize = "16dp"
+            android:padding = "8dp"
+            android:layout_margin = "20dp"
+            android:fontFamily = "monospace"
+            android:textStyle = "bold"
+            android:text = "The McLaren 540C is effectively the British manufacturer’s entry-level model, slotting in beneath the 570S to become the most affordable McLaren in the current range. It uses a less powerful version of the 570S’ engine, but its
+             533bhp 3.9-litre V8 is still punchy enough to get the car from 0-62mph in 3.5 seconds.
+On the road, the 540C handles brilliantly and barely feels any slower than the more expensive 570S. And as it’s part of McLaren’s ‘Sports Series’, it’s a much more usable car for long journeys and everyday trips than the more extreme models in the range.
+Running costs are high and practicality isn’t great, but the 540C is a brilliant car to drive with supercar looks. Compared to similarly priced rivals like the Porsche 911 Turbo and Audi R8, the 540C feels much more exclusive, too.
+The twin-turbo 3.8-litre V8 engine in the 540C is designed for performance not efficiency and the result is an official fuel-economy figure of 25.5mpg, with CO2 emissions of 258g/km. The new VED (road tax) system means the 540C incurs a flat rate of £140 a year, plus a £310 surcharge for in years two to six, because it costs more than £40,000. This results in an annual tax bill of £450 during that time.
+New McLarens come with a three-year/unlimited-mileage warranty. This can be extended up to 12 years from the car’s date of manufacture at extra cost. Servicing is every year or 10,000 miles (whichever comes first) and you can expect a dealer visit to cost well over £1,000.
+"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

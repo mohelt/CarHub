@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".murcielago"
+    tools:showIn="@layout/activity_murcielago">
+    <!-- Linear LAyout -->
 
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:background = "#2BFF06"
+            app:srcCompat="@drawable/lambo"
+            android:layout_width = "match_parent"
+            android:layout_height = "300dp"/>
+        <TextView
+            android:textSize = "16dp"
+            android:padding = "8dp"
+            android:layout_margin = "20dp"
+            android:fontFamily = "monospace"
+            android:textStyle = "bold"
+            android:text = "Lamborghini's flagship cars typically set the trend for that decade. The 1970s had the Miura, the 1980s the Countach, and the 1990s the Diablo. When the Murcielago roared onto the scene, it swept away the then-dated styling of the Diablo with clean lines and minimal fussy details. It hasn't aged too well, especially in the face of the current trendsetter, the Aventador, but the Murcielago was Lamborghini's standout design in the new millennium.What a boring place a world without Lamborghini would be. The Italian super car manufacturer has only been building cars since 1963, but in that short 57-year period, its impact has exceeded that of automakers that have been around nearly twice as long.A big part of that is the brand's approach. No design is too wild – and no amount of power is too much – for a car with the raging bull on its nose. But with nearly six decades of boundary-pushing design and engineering, what's the best Lamborghini?
+Picking a brand's best products is no easy feat, of course. After all, how does one even describe what makes a car “the best”? Are we talking about the most powerful, the prettiest, or simply the cars that pushed the envelope the furthest? In Lamborghini's case, we're using “best” to mean the cars that had the biggest impact, not just on the world of supercars, but on the automaker itself. Tuck in, here are the 15 best Lamborghinis of all time."
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
