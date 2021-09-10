@@ -7,11 +7,92 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ScrollingActivity"
     tools:showIn="@layout/activity_scrolling">
+    <!-- Linear LAyout -->
+    <LinearLayout
+        android:orientation = "vertical"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "Bugatti "
+            android:id ="@+id/id1"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "Koenigsegg "
+            android:id ="@+id/id2"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "MacLaren "
+            android:id ="@+id/id3"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "Aston Martin "
+            android:id ="@+id/id4"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "Lamborghini "
+            android:id ="@+id/id5"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "Ferrari "
+            android:id ="@+id/id6"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+        <Button
+            android:padding = "8dp"
+            android:background = "#F44336"
+            android:layout_margin = "16dp"
+            android:textStyle = "bold"
+            android:textSize = "32dp"
+            android:textColor = "#ffffff"
+            android:text = "Porsche "
+            android:id ="@+id/id7"
+            android:layout_width = "match_parent"
+            android:layout_height = "160dp"/>
+
+    </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>
